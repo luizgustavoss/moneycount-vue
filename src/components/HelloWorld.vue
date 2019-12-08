@@ -4,6 +4,13 @@
     <div class="alert alert-success" role="alert">
       Using Bootstrap
     </div>
+    <div class="alert alert-info" role="alert">
+      Using Font Aweasome
+    </div>
+    <span>
+      <font-awesome-icon icon="money-bill" />
+      <font-awesome-icon icon="coins" />
+    </span>
   </div>
 </template>
 
@@ -33,5 +40,9 @@ li {
 }
 a {
   color: #42b983;
+}
+span {
+  font-size: 30px;
+  letter-spacing: 10px;
 }
 </style>
